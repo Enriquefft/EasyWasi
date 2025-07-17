@@ -44,7 +44,7 @@ Ofrecer un sistema de crédito **accesible**, **transparente** y **flexible**, q
 ### 4.3 Ejemplos de Do’s & Don’ts
 | Situación                      | Correcto                              | Incorrecto                         |
 |--------------------------------|---------------------------------------|------------------------------------|
-| Mensaje de bienvenida          | “Bienvenido a EasyWasi, estamos aquí para ayudarte.” | “Hola, gracias por usar nuestra fintech.” |
+| Mensaje de bienvenida          | “Bienvenido a EasyWasi, estamos aquí para ayudarte.” | “Hola, gracias por probar nuestra plataforma.” |
 | Error en formulario            | “Por favor, ingresa un correo válido.” | “Email malo, inténtalo de nuevo.”  |
 | Llamado a la acción (CTA)      | “Solicita tu primer refuerzo hoy.”    | “Click aquí para más info.”        |
 
