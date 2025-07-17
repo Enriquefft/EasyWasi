@@ -135,3 +135,12 @@ Revisar `docs/brand.md`.
 2. **Hogar primerizo:** “Compré mi primera casa y quiero reforzar el techo poco a poco.”
 3. **MFI en expansión:** “Somos una microfinanciera y buscamos nuevos leads para ofrecer microcréditos a propietarios.”
 4. **Constructora local:** “Dirijo una constructora pequeña y quiero más proyectos modulares.”
+
+## 8. Persistencia de datos
+
+Los formularios guardan la información en tablas separadas usando Drizzle ORM:
+
+1. **households**: datos del perfil Hogar.
+2. **microfinance_institutions**: información de MFIs.
+3. **construction_companies**: registros de constructoras.
+
