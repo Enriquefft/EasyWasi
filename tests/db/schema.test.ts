@@ -1,8 +1,8 @@
 import { expect, test } from "bun:test";
 import {
+	constructionCompanies,
 	households,
 	microfinanceInstitutions,
-	constructionCompanies,
 } from "@/db/schema";
 
 test("households table has essential columns", () => {
