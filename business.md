@@ -24,11 +24,10 @@ EasyWasi ofrece un sistema de crédito modular, accesible y 100 % digital para
 
 1. **Créditos Modulares:** Tickets de bajo monto ajustados a cada etapa de refuerzo.
 2. **Digital y Transparente:** Simulación de cuotas, desembolsos online y seguimiento 100 % digital.
-3. **Calidad Certificada:** Inspección y certificación digital de cada intervención, respaldada por estándares ISO de gestión de calidad del IGP. ([gob.pe](https://www.gob.pe/igp?utm_source=chatgpt.com))
 
 ## 4. Canales
 
-* Plataforma web y app móvil de EasyWasi.
+* Plataforma web de EasyWasi.
 * Alianzas con microfinancieras y FinTech locales.
 * Convenios con constructoras y redes comunitarias.
 

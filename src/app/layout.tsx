@@ -3,6 +3,7 @@ import "@/styles/globals.css";
 export { metadata } from "@/metadata";
 
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
 import { inter as fontSans } from "@/styles/fonts";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
 					disableTransitionOnChange
 				>
 					{children}
+					<Toaster />
 				</ThemeProvider>
 			</body>
 		</html>
