@@ -30,6 +30,7 @@ This repository provides a **Next.js** template configured with **TypeScript**, 
 - `src/styles` – global CSS and fonts.
 - `tests` – unit tests configured for Bun.
 - `docs` – documentation such as the brand guideline template at `docs/brand.md`.
+- `public` - location for the `opengraph-image.webp`, logo.png & other public assets.
 
 ## Code Style
 
