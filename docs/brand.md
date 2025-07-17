@@ -1,135 +1,117 @@
-# Brand Guidelines Template
-
-This document serves as a template for a company's brand guidelines. Replace all placeholder text with information specific to your organization.
-
-## Comprehensive Brand Components
-The following list includes elements commonly found in a branding guide. Each is covered in detail in the sections below.
-
-- Brand Overview
-- Mission, Vision, and Values
-- Brand Personality
-- Tagline and Messaging
-- Boilerplate Copy
-- Logo Usage
-- Color Palette
-- Typography
-- Iconography
-- Imagery and Photography
-- Layout and Spacing
-- User Interface Components
-- Voice and Tone
-- Social Media Guidelines
-- Email Signature
-- Stationery and Print Materials
-- Merchandise Guidelines
-- Co-Branding Rules
-- Accessibility Considerations
-- Motion and Video Style
-- Sound and Music Direction
-- Additional Resources
+## Resumen Ejecutivo
+Este documento establece las **directrices de marca** de EasyWasi: propósito, posicionamiento, público objetivo, personalidad y tono de voz, identidad visual, pautas UI/UX y estrategia de comunicación. Su objetivo es garantizar consistencia, confianza y reconocimiento en cada punto de contacto de nuestra plataforma de crédito modular para refuerzos estructurales de viviendas en Perú.
 
 ---
 
-## 1. Brand Overview
-Describe the purpose of `<Company Name>` and include a high-level summary of what the brand represents. Provide a short paragraph that anyone in the company can reference.
+## 2. Estrategia de Marca
+### 2.1 Propósito
+Empoderar a las familias peruanas para reforzar progresivamente sus hogares, reduciendo riesgos sísmicos y mejorando su calidad de vida.
 
-## 2. Mission, Vision, and Values
-- **Mission:** What your company aims to accomplish.
-- **Vision:** The future state your company strives for.
-- **Values:** Core principles that guide decisions and behavior.
+### 2.2 Visión
+Ser la plataforma líder en América Latina en financiamiento **modular** para refuerzos estructurales de viviendas.
 
-Provide concise statements for each. These can be expanded upon in sub-bullets if needed.
+### 2.3 Misión
+Ofrecer un sistema de crédito **accesible**, **transparente** y **flexible**, que permita implementar mejoras por etapas según la capacidad económica de cada familia.
 
-## 3. Brand Personality
-Outline a few adjectives that capture the feel of the brand. For example:
-- Friendly
-- Innovative
-- Reliable
-
-These are placeholders—replace them with traits that match your organization.
-
-## 4. Tagline and Messaging
-Supply a short tagline and one or two sentences that succinctly describe your product or service. Include any elevator pitch or key phrases commonly used in marketing materials.
-
-## 5. Boilerplate Copy
-Add a standardized paragraph that partners or press can use to describe your company. This should be kept up to date whenever your offering evolves.
-
-## 6. Logo Usage
-Detail how to correctly display the logo, including:
-- Primary and alternative versions
-- Minimum size requirements
-- Clear space around the logo
-- Background control and color variations
-- Examples of incorrect usage
-
-If you provide downloadable logo files, reference where to find them.
-
-## 7. Color Palette
-List brand colors using names, hex codes, and examples of when to use each. A sample table might look like:
-
-| Color Name      | Hex    | Usage Example           |
-| --------------- | ------ | ----------------------- |
-| Primary Color   | `#000000` | Headlines and accents |
-| Secondary Color | `#FFFFFF` | Backgrounds           |
-| Accent Color    | `#FF0000` | Buttons or highlights |
-
-Replace these values with your actual palette.
-
-## 8. Typography
-Specify the typefaces used for headings, body copy, and UI elements. Include fallback fonts and any licensing notes. Example:
-- **Primary Font:** `Inter`, `sans-serif`
-- **Secondary Font:** `Roboto Mono`, `monospace`
-
-Document font weights and where each style should be applied.
-
-## 9. Iconography
-Describe stylistic rules for icons such as stroke width, corner radius, and level of detail. Provide guidance on when to create a new icon versus using an existing library.
-
-## 10. Imagery and Photography
-Explain the preferred style of photos or illustrations. Mention color grading, subject matter, and composition tips. Provide do's and don'ts for selecting imagery.
-
-## 11. Layout and Spacing
-Define grid systems, margins, and padding standards. Include examples of consistent spacing across print and digital materials.
-
-## 12. User Interface Components
-Summarize rules for buttons, forms, and other UI elements if applicable. Reference existing design systems or component libraries.
-
-## 13. Voice and Tone
-Offer guidance on how the brand communicates in writing. Note the balance between formal and casual language, preferred terminology, and grammar conventions.
-
-## 14. Social Media Guidelines
-Outline best practices for posting on platforms such as Twitter, LinkedIn, Instagram, etc. Include how to handle user engagement, hashtags, and community responses.
-
-## 15. Email Signature
-Provide a template signature for all employees. For example:
-```
-Best,
-<Full Name> | <Title>
-<Company Name> | <Phone Number>
-```
-Update with your specific contact details and company style.
-
-## 16. Stationery and Print Materials
-Include specifications for business cards, letterhead, envelopes, and other printed items. Mention paper stock, sizing, and placement of elements.
-
-## 17. Merchandise Guidelines
-Offer direction on how the brand should appear on swag such as apparel, stickers, or mugs. Include embroidery or print color notes as needed.
-
-## 18. Co-Branding Rules
-Explain how to present your brand alongside partners or sponsors. Detail alignment, spacing, and relative sizing of logos.
-
-## 19. Accessibility Considerations
-Document color contrast requirements, alternative text for images, keyboard navigation, and other accessibility standards your brand adheres to.
-
-## 20. Motion and Video Style
-Describe animation principles, video transitions, and the pacing that fits your brand. Note any restrictions on motion for accessibility reasons.
-
-## 21. Sound and Music Direction
-If your brand uses audio cues or music, specify tone, genre, and volume guidelines. Include licensing information if necessary.
-
-## 22. Additional Resources
-Link to shared folders or internal tools where team members can access fonts, logo files, templates, and examples of approved designs.
+### 2.4 Valores
+- **Seguridad:** Soluciones confiables y certificadas.
+- **Proximidad:** Comunicación cercana y soporte permanente.
+- **Accesibilidad:** Créditos de bajo monto, 100 % digital.
+- **Transparencia:** Plazos y desembolsos claros en cada fase.
 
 ---
 
-This template is intentionally generic so it can be customized. Replace each placeholder and example with your brand's specific information to create a comprehensive single source of truth.
+## 3. Público Objetivo
+| Segmento           | Necesidad Principal                           |
+|--------------------|-----------------------------------------------|
+| Familias vulnerables | Crédito accesible para refuerzos pequeños    |
+| Microfinancieras   | Fuente constante de leads y mitigación de riesgo |
+| Constructoras      | Pipeline de proyectos modulares               |
+
+---
+
+## 4. Personalidad y Tono de Voz
+### 4.1 Personalidad
+- **Cercana**
+- **Empática**
+- **Profesional**
+
+### 4.2 Tono de Voz
+- **Claro y directo**: “Así es cada paso y desembolso.”
+- **Cálido y empático**: “Entendemos tu hogar y tu realidad.”
+- **Confiable**: “Tu seguridad, nuestra prioridad.”
+
+### 4.3 Ejemplos de Do’s & Don’ts
+| Situación                      | Correcto                              | Incorrecto                         |
+|--------------------------------|---------------------------------------|------------------------------------|
+| Mensaje de bienvenida          | “Bienvenido a EasyWasi, estamos aquí para ayudarte.” | “Hola, gracias por probar nuestra plataforma.” |
+| Error en formulario            | “Por favor, ingresa un correo válido.” | “Email malo, inténtalo de nuevo.”  |
+| Llamado a la acción (CTA)      | “Solicita tu primer refuerzo hoy.”    | “Click aquí para más info.”        |
+
+---
+
+## 5. Identidad Visual
+
+### 5.1 Logo
+- **Versiones**:
+  - Principal (horizontal) - `public/logo.png`
+  - Secundaria (vertical)
+  - Isotipo (solo el ícono) - `public/isotipo.png`
+- **Uso mínimo**: Área libre igual a la altura de la “W” exterior.
+- **No hacer**:
+  - No deformar ni rotar.
+  - No cambiar colores.
+  - No aplicar sombras ni efectos.
+
+### 5.2 Paleta de Colores
+| Rol            | Color        | Hex       | Uso                             |
+|----------------|--------------|-----------|---------------------------------|
+| Primario       | Terracota    | #D1495B   | Botones principales, enlaces    |
+| Secundario     | Verde Hope   | #76B041   | Mensajes de éxito, destacados   |
+| Neutro         | Gris Medio   | #4A4A4A   | Texto principal                |
+| Fondo          | Blanco       | #FFFFFF   | Fondos claros                  |
+
+### 5.3 Tipografía
+- **Primaria**: Montserrat (sans serif geométrica moderna).
+- **Secundaria**: Open Sans (legible en cuerpo de texto).
+- **Pesos**: Regular (400), Medium (500), Bold (700).
+- **Jerarquía**:
+  - H1: Montserrat Bold 48 px
+  - H2: Montserrat Medium 34 px
+  - Body: Open Sans Regular 16 px
+
+### 5.4 Iconografía
+- Estilo **lineal** con esquinas redondeadas (radio 2 px).
+- Conjunto propio inspirado en bloques y escudos modulares.
+
+### 5.5 Estilo Fotográfico
+- Preferir **ilustraciones planas** que expliquen el concepto de refuerzos.
+- Fotografías reales de obras en Perú para reforzar autenticidad.
+- Evitar imágenes de stock genéricas.
+
+---
+
+## 6. Directrices UI/UX
+
+### 6.1 Arquitectura de Información
+- **Landing page** de una sola pantalla con anclas a secciones.
+- **Formulario multi-paso**:
+  1. Selección de perfil (familia, MFI, constructora)
+  2. Ingreso de datos
+  3. Simulación de cuota y validación
+
+### 6.2 Componentes
+| Componente | Estilo                                    |
+|------------|-------------------------------------------|
+| Botón      | Bordes 8 px, padding 12 px 24 px, sombra sutil |
+| Input      | Borde 1 px gris, foco Terracota, padding 12 px |
+| Tarjeta    | Elevación 2, padding 16 px, esquinas 8 px     |
+
+### 6.3 Estados
+- **Normal** / **Focus** / **Error** / **Disabled**
+- Definir colores y mensajes de error claros.
+
+### 6.4 Accesibilidad
+- Contraste de texto ≥ 4.5:1.
+- Etiquetas ARIA en todos los campos de formulario.
+- Navegación completa con teclado.
