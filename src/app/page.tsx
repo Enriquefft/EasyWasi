@@ -1,14 +1,8 @@
-import { headers } from "next/headers";
 import Image from "next/image";
-import { auth } from "@/auth";
 /**
  * @returns Home page component
  */
 export default async function Home() {
-	const session = await auth.api.getSession({
-		headers: await headers(),
-	});
-
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between p-24">
 			<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -17,11 +11,7 @@ export default async function Home() {
 					<code className="font-bold font-mono">src/app/page.tsx</code>
 				</p>
 
-				{session ? (
-					<h1> Welcome {session.user.name} </h1>
-				) : (
-					<h1> Welcome Guest </h1>
-				)}
+				<h1> Welcome Guest </h1>
 
 				<div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-linear-to-t from-white via-white lg:static lg:size-auto lg:bg-none dark:from-black dark:via-black">
 					<a
