@@ -5,13 +5,14 @@ const siteName = "EasyWasi";
 const description =
 	"Plataforma digital de financiamiento modular para refuerzos estructurales.";
 const url = getBaseUrl();
+const metadataBase = new URL(url);
 const keywords = ["financiamiento", "vivienda", "Peru", "EasyWasi"];
 
 const webpImage = {
 	alt: siteName,
 	height: 630,
 	type: "image/webp",
-	url: new URL("/opengraph-image.webp", url).toString(),
+	url: new URL("/opengraph-image.webp", metadataBase).toString(),
 	width: 1200,
 };
 
@@ -25,10 +26,10 @@ export const metadata: Metadata = {
 	creator: "Enrique Flores",
 	description,
 	icons: {
-		icon: "/icon.png",
+		icon: new URL("/icon.png", metadataBase).toString(),
 	},
 	keywords,
-	metadataBase: new URL(url),
+	metadataBase,
 
 	openGraph: {
 		description,
