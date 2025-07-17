@@ -1,6 +1,6 @@
 {
 	"bugs": {
-		"url": "https://github.com/Enriquefft/next-fullstack-template/issues"
+		"url": "https://github.com/Enriquefft/EasyWasi/issues"
 	},
 	"dependencies": {
 		"@neondatabase/serverless": "^1.0.1",
@@ -18,7 +18,7 @@
 		"tailwind-merge": "^3.3.1",
 		"zod": "^3.25.74"
 	},
-	"description": "Template for Next.js fullstack applications, my preferred framework for MVP'S.",
+	"description": "Aplicación web de EasyWasi para facilitar el financiamiento progresivo de refuerzos estructurales.",
 	"devDependencies": {
 		"@biomejs/biome": "^2.0.6",
 		"@happy-dom/global-registrator": "^18.0.1",
@@ -38,7 +38,7 @@
 		"typescript": "^5.8.3"
 	},
 	"license": "SEE LICENSE IN LICENSE.public",
-	"name": "next-fullstack-template",
+	"name": "easywasi",
 	"overrides": {
 		"@types/react": "19.0.10",
 		"@types/react-dom": "19.0.4"
@@ -46,7 +46,7 @@
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Enriquefft/next-fullstack-template"
+		"url": "https://github.com/Enriquefft/EasyWasi"
 	},
 	"scripts": {
 		"auth:gen": "bunx @better-auth/cli@latest generate",

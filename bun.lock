@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "next-fullstack-template",
+      "name": "easywasi",
       "dependencies": {
         "@neondatabase/serverless": "^1.0.1",
         "@radix-ui/react-slot": "^1.2.3",

@@ -1,6 +1,6 @@
 # Agent Instructions
 
-This repository provides a **Next.js** template configured with **TypeScript**, **Bun**, **Tailwind CSS**, and **Drizzle ORM**. It is meant to be cloned and adapted into your own project. Update names, documentation, and configuration files to reflect the new project once you copy this template.
+This repository hosts **EasyWasi**, a web application built with **Next.js**, **TypeScript**, **Bun**, **Tailwind CSS**, and **Drizzle ORM**.
 
 ## Workflow
 
@@ -40,19 +40,9 @@ This repository provides a **Next.js** template configured with **TypeScript**, 
 - Keep lines under 80 characters when practical and remove unused code.
 - Single source of truth is a must everywhere and for everything.
 
-## Customization Checklist
-
-This is a template repository. After cloning, update all references to match your project:
-
-- Rename the project in `package.json` and `README.md`.
-- Adjust environment variables in `src/env.ts` and `.env.local` (if present).
-- Replace placeholder text in `docs/brand.md` with your real brand details.
-- Review the sample components and pages under `src/app` and `src/components` and adapt as needed.
-- Lastly, update this file: `AGENTS.md`, removing every mention that this is a template repository alongside this customization checklist (after making all needed changes).
-
 
 ## AGENTS.md Inheritance
 
 These instructions govern the entire repository. If another `AGENTS.md` is added in a subdirectory, its rules override these instructions for files within that folder.
 
-By following these guidelines and updating all placeholders, you can transform this template into your own production-ready project.
+By following these guidelines, you can keep the codebase consistent and maintainable.

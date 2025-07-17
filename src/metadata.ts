@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { getBaseUrl } from "@/lib/utils";
 
-const siteName = "Next Fullstack Template";
+const siteName = "EasyWasi";
 const description =
-	"A fullstack Next.js starter powered by Bun, Tailwind CSS and Drizzle ORM.";
+	"Plataforma digital de financiamiento modular para refuerzos estructurales.";
 const url = getBaseUrl();
-const keywords = ["Next.js", "fullstack", "Bun", "Drizzle ORM", "template"];
+const keywords = ["financiamiento", "vivienda", "Peru", "EasyWasi"];
 
 const webpImage = {
 	alt: siteName,

@@ -1,12 +1,9 @@
-# Next Fullstack Template
+# EasyWasi Web App
+EasyWasi es una plataforma digital para el financiamiento modular de refuerzos estructurales en viviendas peruanas. Este repositorio contiene la aplicación web construida con **Next.js**, **TypeScript**, **Bun**, **Tailwind CSS** y **Drizzle ORM**.
 
-A preconfigured Next.js starter built with TypeScript, Bun, Tailwind CSS and
-Drizzle ORM. It includes Better Auth, shadcn/ui, PostHog analytics and a basic
-Nix flake for development.
 
-## Features
+## Caracteristicas
 
-- Next.js 15 with the App Router
 - Bun package manager and runtime
 - Tailwind CSS with shadcn/ui components
 - Drizzle ORM for PostgreSQL
@@ -33,8 +30,8 @@ Install **Bun** first if it isn't already available on your system. Visit
 its dependencies:
 
 ```bash
-git clone https://github.com/Enriquefft/next-fullstack-template.git
-cd next-fullstack-template
+git clone https://github.com/Enriquefft/EasyWasi.git
+cd EasyWasi
 bun install
 ```
 
@@ -98,17 +95,15 @@ See `.env.example` for details.
 
 ## Metadata and Social Sharing
 
-Page metadata lives in `src/metadata.ts`. Customize the title, description and
-authors to fit your project. Edit the `metadataBase` field so absolute URLs are
-generated. This ensures the `og:image` preview works on platforms like
-WhatsApp. Replace `public/opengraph-image.png` (and the
-`opengraph-image.webp` variant) with your own social card if desired.
+Page metadata lives in `src/metadata.ts`. Edita el titulo, la descripcion y los autores para representar a EasyWasi. Ajusta `metadataBase` para generar URLs absolutas.
+Esto asegura que la previsualizacion `og:image` funcione en plataformas como WhatsApp.
+Replace `public/opengraph-image.png` (and the `opengraph-image.webp` variant) with your own social card if desired.
 
 Next.js reads `src/app/icon.png` to generate the favicon and other metadata
 icons. Swap this file for your own icon or add additional sizes following
 Next.js file conventions. The exported `metadata` object in `src/metadata.ts`
 imports these images. Update its `title`, `description`, `authors` and any other
-fields to reflect your project. Ensure `metadataBase` points to your deployed
+fields to reflect EasyWasi. Ensure `metadataBase` points to your deployed
 domain so that absolute URLs for icons and OpenGraph images resolve correctly.
 
 ## Contributing
