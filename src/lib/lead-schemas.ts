@@ -9,21 +9,21 @@ import {
 export const profileEnum = z.enum(["household", "mfi", "constructor"]);
 
 export const householdSchema = createInsertSchema(households, {
-	email: z.string().email(),
+	email: z.email(),
 }).omit({
 	createdAt: true,
 	id: true,
 });
 
 export const mfiSchema = createInsertSchema(microfinanceInstitutions, {
-	email: z.string().email(),
+	email: z.email(),
 }).omit({
 	createdAt: true,
 	id: true,
 });
 
 export const constructorSchema = createInsertSchema(constructionCompanies, {
-	email: z.string().email(),
+	email: z.email(),
 }).omit({
 	createdAt: true,
 	id: true,
