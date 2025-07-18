@@ -9,6 +9,7 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import { signIn } from "@/lib/auth-client";
+import { showErrorToast } from "@/lib/handle-error";
 import { cn } from "@/lib/utils";
 
 function GoogleLogo() {
@@ -48,10 +49,14 @@ function GoogleSignInButton({
 	callbackUrl?: string;
 }) {
 	const handleSignIn = async () => {
-		await signIn.social({
-			callbackURL: callbackUrl,
-			provider: "google",
-		});
+		try {
+			await signIn.social({
+				callbackURL: callbackUrl,
+				provider: "google",
+			});
+		} catch (err) {
+			showErrorToast(err);
+		}
 	};
 
 	return (

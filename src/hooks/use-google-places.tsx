@@ -1,5 +1,5 @@
 import { useJsApiLoader } from "@react-google-maps/api";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 type PlacePrediction = {
 	description: string;
@@ -9,6 +9,8 @@ type PlacePrediction = {
 type UseGooglePlacesReturn = {
 	placePredictions: PlacePrediction[];
 	isLoading: boolean;
+	/** Error returned by the Google Maps script loader. */
+	error: Error | undefined;
 	searchPlaces: (query: string) => Promise<void>;
 };
 
@@ -23,13 +25,22 @@ export const useGooglePlaces = (apiKey: string): UseGooglePlacesReturn => {
 		[],
 	);
 	const [isLoading, setIsLoading] = useState(false);
+	const [error, setError] = useState<Error | undefined>(undefined);
+
+	useEffect(() => {
+		if (loadError) {
+			setError(loadError);
+		}
+	}, [loadError]);
 
 	const searchPlaces = useCallback(
 		async (query: string) => {
 			if (!isLoaded || loadError) {
 				setPlacePredictions([]);
+				setError(loadError);
 				return;
 			}
+			setError(undefined);
 
 			if (!query) {
 				setPlacePredictions([]);
@@ -73,6 +84,7 @@ export const useGooglePlaces = (apiKey: string): UseGooglePlacesReturn => {
 	);
 
 	return {
+		error,
 		isLoading,
 		placePredictions,
 		searchPlaces,

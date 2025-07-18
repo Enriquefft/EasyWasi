@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import type { z } from "zod";
-
 import { createConstructorLead } from "@/app/actions/lead";
 import { SubmitButton } from "@/components/submit-button";
 import {
@@ -17,6 +16,7 @@ import {
 	FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { showErrorToast } from "@/lib/handle-error";
 import { constructorSchema } from "@/lib/lead-schemas";
 
 const schema = constructorSchema;
@@ -36,8 +36,8 @@ export function ConstructorForm() {
 			await createConstructorLead(values);
 			toast.success("\u00a1Gracias! Recibimos tu solicitud.");
 			form.reset();
-		} catch {
-			toast.error("Hubo un problema al guardar");
+		} catch (err) {
+			showErrorToast(err);
 		}
 		setSubmitting(false);
 	}

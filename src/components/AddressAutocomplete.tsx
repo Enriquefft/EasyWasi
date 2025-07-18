@@ -34,7 +34,8 @@ export function AddressAutocomplete<T extends FieldValues>({
 	placeholder = "Enter an address",
 	apiKey,
 }: AddressAutocompleteProps<T>) {
-	const { placePredictions, isLoading, searchPlaces } = useGooglePlaces(apiKey);
+	const { placePredictions, isLoading, error, searchPlaces } =
+		useGooglePlaces(apiKey);
 	const [open, setOpen] = useState(false);
 
 	// Create a debounced search function
@@ -93,6 +94,9 @@ export function AddressAutocomplete<T extends FieldValues>({
 							)}
 						</Command>
 					</FormControl>
+					{error ? (
+						<p className="text-destructive text-sm mt-1">{error.message}</p>
+					) : null}
 					<FormMessage />
 				</FormItem>
 			)}
